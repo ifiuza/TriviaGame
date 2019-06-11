@@ -1,0 +1,31 @@
+body{
+
+    background-color: black;
+}
+
+.container{
+    display: block;
+    background-color: orange;
+    margin-left: 30%;
+    width: 600px;
+    height: 600px;
+}
+
+.start{
+    display: block;
+    background-color: black;
+    color:white;
+    width: 35px;
+    margin-left: 10px;
+    }
+
+#done{
+    display: block;
+    background-color: black;
+    color:white;
+    width: 35px;
+    margin-left: 10px;
+    }
+
+
+}   

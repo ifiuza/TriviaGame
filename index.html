@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Assignmentr 2</title>
+
+   <!--css file-->
+    <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!--javascript file -->
+    <script src=".\assets\javascript\app.js"></script>
+  
+</head>
+
+<body>
+
+        <div class="container">
+                        <h1 class="title">Totally Trivial Trivia!</h1>
+                        <p class="start" id="start">Start</p>
+                        <div class="countdown">
+                        <p id="countdown">Time Remaining:<span id="timer"></span></p>
+                        </div>
+            
+                <div class="questions">
+
+                    <p class="quest">1. Who won The FIFA Soccer World CUP in 1994</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline ">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Brazil
+                        </label>
+                        <label class="form-check form-check-inline ">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Italy  
+                        </label>
+                        <label class="form-check form-check-inline">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> USA  
+                        </label>
+                    </form>
+
+                    <div>
+                        <p class="done" id="done">Done
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Last page Results -->
+                    <div class="results">
+                        <p class="lead2" id="summary">All Done!</p> 
+                        <p class="lead2" id="correctScore">Correct Answers:</p>
+                        <p class="lead2" id="wrongScore"></p>
+                        <p class="lead2" id="unanswered"></p>
+                    </div>
+                
+        </div>  
+
+
+      </body>
+
+
+
+</html>
