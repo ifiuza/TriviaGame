@@ -4,11 +4,13 @@ body{
 }
 
 .container{
+    text-align: center;
     display: block;
     background-color: orange;
     margin-left: 30%;
     width: 600px;
     height: 600px;
+    border-radius: 10px;
 }
 
 .start{
@@ -17,15 +19,34 @@ body{
     color:white;
     width: 35px;
     margin-left: 10px;
+    margin-left: 43%;
     }
 
+    #title{
+         padding-top: 30px;
+    }
+
+#countdown{
+    padding-bottom: 30px;
+    color: white;
+
+}
+
+.results{
+
+    padding-top: 20px;
+}
 #done{
+    margin-top: 30px;
     display: block;
     background-color: black;
     color:white;
     width: 35px;
-    margin-left: 10px;
+    margin-left: 43%;
     }
+    
 
+p{ 
+    padding: 10 px;
 
-}   
+     }
